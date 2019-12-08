@@ -1,0 +1,1 @@
+The goal of this repo is to learn css animations using github and using .NET Ninja as my teacher.
