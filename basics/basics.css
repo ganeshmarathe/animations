@@ -1,0 +1,24 @@
+.transformer{
+    transform: translateX(100px) scale(1.1, 1.1) rotateZ(-45deg);
+    width: 200px;
+    height: 200px;       
+}
+
+.transition{
+    transition: border 1s, transform 0.5s 0.5s ease;
+    width: 300px;
+    height: 300px;
+    border: 3px solid yellowgreen;
+    border-radius: 300px;
+    cursor: pointer;
+}
+
+.transition:hover{
+    border: 3px dashed crimson;
+    transform: rotate(360deg) ;
+}
+
+body{
+    background-color: lightslategray;
+    text-align: center;
+}
